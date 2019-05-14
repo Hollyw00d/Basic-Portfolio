@@ -141,6 +141,11 @@ footer p {
 
 
 /* Portfolio page */
+body.portfolio #main hr {
+    margin: 0 0 40px;
+}
+
+
 .portfolio-img {
     display: inline-block;
     width: 275px;
