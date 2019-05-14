@@ -154,6 +154,7 @@ body.portfolio #main hr {
     position: relative;
     box-sizing: border-box;
     border: 2px solid #4aaaa5;
+    margin: 0 40px 55px 0;
 }
 
 .portfolio-img p {
