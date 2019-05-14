@@ -12,12 +12,13 @@ body {
     background: #666;
     background-position: center;
     letter-spacing: 1px;
+    position: relative;
 }
 
 #header-main-section-wrapper {
     background: url(../images/interlaced.png);
     background-position: center;
-    padding-bottom: 40px;
+    padding-bottom: 108px;
 }
 
 
@@ -153,6 +154,9 @@ footer {
     background: #666;
     border-top: 8px solid #4aaaa5;
     height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p {
