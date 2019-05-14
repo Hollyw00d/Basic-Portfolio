@@ -1,5 +1,6 @@
 /*** Portfolio CSS ***/
 
+
 /* Body and background image for header and main section */
 body {
     margin: 0;
@@ -136,4 +137,10 @@ footer {
 footer p {
     color: #fff;
     text-align: center;
+}
+
+
+/* Portfolio page */
+.portfolio-img {
+    display: inline-block;
 }
