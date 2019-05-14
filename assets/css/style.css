@@ -15,6 +15,7 @@ body {
 #header-main-section-wrapper {
     background: url(../images/interlaced.png);
     background-position: center;
+    padding-bottom: 40px;
 }
 
 
@@ -130,4 +131,9 @@ footer {
     background: #666;
     border-top: 8px solid #4aaaa5;
     height: 60px;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
 }
