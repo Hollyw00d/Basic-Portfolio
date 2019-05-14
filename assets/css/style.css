@@ -11,6 +11,7 @@ body {
     color: #777;
     background: #666;
     background-position: center;
+    letter-spacing: 1px;
 }
 
 #header-main-section-wrapper {
