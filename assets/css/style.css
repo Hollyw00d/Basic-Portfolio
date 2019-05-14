@@ -10,6 +10,23 @@ body {
 }
 
 
+/* General Classes */
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.h1 {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.alignleft {
+    float: left;
+    clear: right;
+}
+
+
 /* Header */
 header {
     background: #fff;
@@ -69,27 +86,31 @@ nav a:active {
     color: #999;
 }
 
-
-/* Main Section */
-h1 {
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-/* General Classes */
-.wrapper {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-.h1 {
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 .header-spacer {
     padding: 0;
-    margin: 0;
+    margin: 0 0 40px 0;
     border: 1px solid #ccc;
+}
+
+
+/* Main Section */
+section {
+    width: 958px;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin: 40px 0 0;
+}
+
+main {
+ padding: 15px 35px 0 35px;   
+}
+
+main h1 {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+main hr {
+    border: 2px solid #ddd;
 }
