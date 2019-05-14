@@ -13,10 +13,10 @@ body {
     background-position: center;
     letter-spacing: 1px;
     position: relative;
+    background: url(../images/interlaced.png);
 }
 
 #header-main-section-wrapper {
-    background: url(../images/interlaced.png);
     background-position: center;
     padding-bottom: 108px;
 }
