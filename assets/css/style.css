@@ -91,10 +91,15 @@ nav li:last-of-type a {
 }
 
 nav a:link,
-nav a:visited,
+nav a:visited {
+    color: #999;
+    text-decoration: none;
+}
+
 nav a:hover,
 nav a:active {
     color: #999;
+    text-decoration: underline;
 }
 
 .header-spacer {
@@ -125,6 +130,7 @@ section {
 
 #main hr {
     border: 2px solid #ddd;
+    margin: 0 0 40px;
 }
 
 
@@ -142,11 +148,6 @@ footer p {
 
 
 /* Portfolio page */
-body.portfolio #main hr {
-    margin: 0 0 40px;
-}
-
-
 .portfolio-img {
     display: inline-block;
     width: 275px;
