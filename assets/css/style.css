@@ -48,6 +48,10 @@ a:focus {
 
 
 /* Header */
+#header-wrapper {
+    background: #fff;
+}
+
 header {
     background: #fff;
     height: 90px;
